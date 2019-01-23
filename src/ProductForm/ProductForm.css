@@ -1,0 +1,28 @@
+
+.formWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formWrapper .productInput{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px white solid;
+    color: white;
+    margin: 10px 10px;
+}
+
+.formWrapper .productButton{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 3px;
+    color: white;
+    padding: 10px 10px;
+    transition: all .4s ease-in-out;
+}
+.formWrapper .productButton:hover{
+    color: black;
+    background-color: white;
+    transition: all .2s ease-in-out;
+}
