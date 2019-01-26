@@ -10,7 +10,11 @@ class Product extends Component{
     super(props);
     this.productContent = props.productContent;
     this.productCount = props.productCount;
+
+
+    this.handleRemoveNote = this.handleRemoveProduct.bind(this);
   }
+
 
   render(){
     return(
