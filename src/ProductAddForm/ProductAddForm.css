@@ -1,23 +1,29 @@
-
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 .formWrapper{
     display: flex;
     flex-direction: column;
+            font-family: 'Indie Flower', cursive;
+    justify-content: center;
     align-items: center;
 }
 
-.formWrapper .productInput{
+.formWrapper .productInput,.productCountInput{
     background-color: transparent;
     border: none;
     border-bottom: 1px white solid;
     color: white;
+    font-size: 20px;
+    font-family: 'Indie Flower', cursive;
     margin: 10px 10px;
 }
+
 
 .formWrapper .productButton{
     background-color: transparent;
     border: 1px solid white;
     border-radius: 3px;
     color: white;
+    font-family: 'Indie Flower', cursive;
     padding: 10px 10px;
     transition: all .4s ease-in-out;
 }

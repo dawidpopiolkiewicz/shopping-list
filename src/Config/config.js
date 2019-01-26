@@ -7,4 +7,3 @@
     storageBucket: "shopping-list-a9b6d.appspot.com",
     messagingSenderId: "167785888373"
   };
-

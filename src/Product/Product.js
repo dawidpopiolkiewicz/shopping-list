@@ -12,19 +12,21 @@ class Product extends Component{
     this.productCount = props.productCount;
 
 
-    this.handleRemoveNote = this.handleRemoveProduct.bind(this);
+    this.handleRemoveProduct = this.handleRemoveProduct.bind(this);
+  }
+
+
+  handleRemoveProduct(id){
+    this.props.removeProduct(id);
+
   }
 
 
   render(){
     return(
       <div className="product fade-in">
-
         <p className="productContent">{this.productContent}</p>
-        <p className="">{this.productCount}</p>
-        <span className="closebtn" onClick={() => this.handleRemoveProduct(this.productId)}>
-      &times;
-      </span>
+        <p className="">{this.productCount} szt</p>
       </div>
     )
   }
